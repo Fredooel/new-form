@@ -178,7 +178,7 @@
             width: 600px;
         }
         .error {
-            background-color: #FFECEC;
+            background-color: #34df0e;
             padding: 10px 15px;
             margin: 3px 3px 20px 3px;
             border: 1px solid red;
