@@ -57,8 +57,8 @@
             }
 
             $file_size = $_FILES["student_photo"]["size"];
-            if ($file_size > 1048576) {
-                $error_message .= "- Ukuran file melebihi 700KB <br>";
+            if ($file_size > 10485760) {
+                $error_message .= "- Ukuran file melebihi 1MB <br>";
             }
 
             $check = getimagesize($_FILES["student_photo"]["tmp_name"]);
