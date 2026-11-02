@@ -175,7 +175,7 @@
 
     <style>
         .container {
-            width: 600px;
+            width: 666px;
         }
         .error {
             background-color: #34df0e;
